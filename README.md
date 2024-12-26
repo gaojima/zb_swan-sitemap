@@ -2,7 +2,7 @@
 	Zblog 1.7 百度小程序 swan-sitemap 索引页组件
 </h2>
 <h3>
-	在 app.json 文件配置的 dynamicLib 字段中增加对 swan-sitemap 的引用
+	1、在 app.json 文件配置的 dynamicLib 字段中增加对 swan-sitemap 的引用
 </h3>
 <pre>
 "dynamicLib": {
@@ -23,7 +23,7 @@
 	如果放在pages内（例：/pages/swan-sitemap/index）会导致收录出现死链，放置根目录却不会，可能是个BUG，连百度小程序自己都不知道。
 </p>
 <h3>
-	swan-sitemap/index.swan
+	2、swan-sitemap/index.swan
 </h3>
 <p>
 	swan-sitemap-list 需要组件字段，以下list-data是可以修改的，这里默认使用百度给出的，path="/swan-sitemap/index" 不可修改。
@@ -35,7 +35,7 @@ total-page="{{totalPage}}"
 path="/swan-sitemap/index"
 </pre>
 <h3>
-	swan-sitemap/index.json
+	3、swan-sitemap/index.json
 </h3>
 <p>
 	在 swan-sitemap/index.json页面中配置 usingComponents 字段引用组件声明。
@@ -49,7 +49,7 @@ path="/swan-sitemap/index"
 }
 </pre>
 <h3>
-	swan-sitemap/index.js
+	4、swan-sitemap/index.js
 </h3>
 <p>
 	这里特别要注意时间格式，格式为 YYYY-MM-DD HH:mm:ss 。
@@ -127,7 +127,7 @@ Page({
 });
 </pre>
 <h3>
-	官方参考文档
+	5、官方参考文档
 </h3>
 <p>
 	百度智能小程序 swan-sitemap 官方参考文档
