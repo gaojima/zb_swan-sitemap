@@ -28,12 +28,12 @@
 <p>
 	swan-sitemap-list 需要组件字段，以下list-data是可以修改的，这里默认使用百度给出的，path="/swan-sitemap/index" 不可修改。
 <p>
-<swan-sitemap-list
-    list-data="{{listData}}"
-    current-page="{{currentPage}}"
-    total-page="{{totalPage}}"
-    path="/swan-sitemap/index"
-</swan-sitemap-list>
+<pre>
+list-data="{{listData}}"
+current-page="{{currentPage}}"
+total-page="{{totalPage}}"
+path="/swan-sitemap/index"
+</pre>
 <h3>
 	swan-sitemap/index.json
 </h3>
